@@ -14,8 +14,8 @@ $("#add").click(function() {
  	var gpa = $("#gpa").val();
  	var student = { FirstName: firstName, LastName: lastName, SAT: sat, GPA: gpa };
  	Students.push(student);
- 	("#add").reset();
  	//$("button#refresh").click();
+ 	$("input").val(''); //clears input 
 });
 
 $("#refresh").click(function() {

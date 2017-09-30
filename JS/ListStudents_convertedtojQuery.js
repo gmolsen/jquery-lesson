@@ -15,7 +15,7 @@ $("#add").click(function() {
  	var student = { FirstName: firstName, LastName: lastName, SAT: sat, GPA: gpa };
  	Students.push(student);
  	//$("button#refresh").click();
- 	$("input").val(''); //clears input 
+ 	$("input").val(''); //clears input s
 });
 
 $("#refresh").click(function() {
